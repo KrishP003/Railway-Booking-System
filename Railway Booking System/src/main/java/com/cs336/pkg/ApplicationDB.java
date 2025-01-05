@@ -1,3 +1,4 @@
+//Change connection password on line 35 
 package com.cs336.pkg;
 
 import java.sql.Connection;
@@ -31,7 +32,7 @@ public class ApplicationDB {
 		}
 		try {
 			//Create a connection to your DB
-			connection = DriverManager.getConnection(connectionUrl,"root", "Prim33%0");
+			connection = DriverManager.getConnection(connectionUrl,"root", "password");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
